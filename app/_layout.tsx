@@ -27,7 +27,7 @@ export default function RootLayout() {
       <Stack.Screen
         name="detail"
         options={{
-          title: "Top 10 Bangkok Coffee Shops",
+          title: "รายละเอียดร้าน",
           headerTitleAlign: "center",
           headerStyle: { backgroundColor: "#695740" },
           headerTitleStyle: { color: "#fff", fontFamily: "Kanit_400Regular" },
@@ -36,7 +36,7 @@ export default function RootLayout() {
       <Stack.Screen
         name="home"
         options={{
-          title: "รายละเอียดร้าน",
+          title: "Top 10 Bangkok Coffee Shops",
           headerBackButtonDisplayMode: "minimal",
           headerTitleAlign: "center",
           headerStyle: { backgroundColor: "#6c512f" },
