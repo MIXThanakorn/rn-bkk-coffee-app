@@ -29,8 +29,10 @@ export default function RootLayout() {
         options={{
           title: "รายละเอียดร้าน",
           headerTitleAlign: "center",
-          headerStyle: { backgroundColor: "#695740" },
+          headerStyle: { backgroundColor: "#6c512f" },
           headerTitleStyle: { color: "#fff", fontFamily: "Kanit_400Regular" },
+          headerBackButtonDisplayMode: "minimal",
+          headerTintColor: "#fff",
         }}
       />
       <Stack.Screen
